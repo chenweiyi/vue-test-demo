@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import SfcComp from './SfcComp.vue'
 import TsxComp from './TsxComp.vue'
 
