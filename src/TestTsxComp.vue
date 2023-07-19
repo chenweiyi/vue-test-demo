@@ -10,7 +10,7 @@ export default defineComponent({
     }
   },
   emits: {
-    'update:modelValue': (value: string) => true
+    'update:modelValue': (value: string) => typeof value === 'string'
   },
   setup(props, { emit }) {
     
